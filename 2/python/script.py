@@ -4,7 +4,7 @@ import numpy as np
 # 1. Вихідні дані
 # ==============================
 
-# Таблица координат (5 точек, 3 признака)
+# Таблиця координат (5 точок, 3 признак)
 points = np.array([
     [12, 5, 8],
     [3, 8, 9],
@@ -29,8 +29,8 @@ def euclidean(a, b):
     return np.sqrt(np.sum((a - b) ** 2))
 
 # Квадрат Евклідової
-def euclidean_squared(a, b):
-    return np.sum((a - b) ** 2)
+# def euclidean_squared(a, b):
+#     return np.sum((a - b) **
 
 # Манхеттенська (метрика городських кварталів)
 def manhattan(a, b):
